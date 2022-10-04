@@ -13,7 +13,7 @@ from amaranth.build import *
 __all__ = ["GowinPlatform"]
 
 
-class GowinPaltform(TemplatedPlatform):
+class GowinPlatform(TemplatedPlatform):
     toolchain = "gw_sh"
 
     device = abstractproperty()             # GW1NSR-4C

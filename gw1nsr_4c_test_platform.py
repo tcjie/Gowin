@@ -1,7 +1,7 @@
 from amaranth.build import *
-from gowin import GowinPaltform
+from gowin import GowinPlatform
 
-class GW1NSR_4C_TestPlatform(GowinPaltform):
+class GW1NSR_4C_TestPlatform(GowinPlatform):
     device = "GW1NSR-4C"
     pn = "GW1NSR-LV4CQN48PC6/I5"
     package = "QN48P"
